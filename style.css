@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(151, 147, 147);
+}
+
+.message_part{
+    width: 471px;
+    height: 802px;
+    background: #fff;
+    margin-left: 420px;
+    margin-top: 20px;
+}
+
+
+/* ------profile menu start----- */
+
+/* --- */
+.dp_menu{
+ display: flex;
+ padding-top: 11px;
+}
+.profile_part{
+ display: flex;
+ margin-left: 40%;
+ transform: translate(-50% 50%);
+ margin-top: 30px;
+}
+.profile_part img{
+ height: 40px;
+ width: 40px;
+ border-radius: 50%;
+ border: 1px solid black;
+ cursor: pointer;
+}
+.name{
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.name h4{
+   font-size: 15px;
+   cursor: pointer;
+}
+.name p{
+ font-size: 11px;
+ color: #43C428;
+}
+/* //// */
+
+
+/* ---- */
+.menu_toggle{
+    margin-top: 40px;
+    margin-left: 95px;
+    cursor: pointer;
+}
+.toggle{
+  height: 5px;
+  width: 5px;
+  background-color: black;
+  margin-top: 3px;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+/* ///// */
+/* ------profile menu end------- */
+
+
+
+
+
+
+/* ----------msg start---------- */
+.chat_part{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    margin-top: 25px;
+}
+
+/* ----- */
+.friend{
+    box-shadow: -7px -7px 20px 0 rgb(255, 255, 255,0.7),7px 7px 20px 0 rgb(0, 0, 0,0.1);
+    width: 210px;
+    font-family: sans-serif;
+    margin-left: 30px;
+    border-radius: 20px 20px 20px 0px;
+    padding: 7px;
+    margin-top: 35px;
+    padding-left: 20px;
+}
+.friend p{
+    font-size: 10px;
+    padding-top: 8px;
+}
+.friend .chat{
+    font-size: 12px;
+}
+.friend_typing{
+    background: rgb(243, 241, 241);
+    width: 52px;
+    height: 30px;
+    font-family: sans-serif;
+    margin-left: 30px;
+    border-radius: 22px 22px 22px 0px;
+    padding: 7px;
+    margin-top: 35px;
+    padding-left: 17px;
+    display: flex;
+}
+.friend_typing .typing{
+    height: 8px;
+    width: 8px;
+    background-color: rgb(114, 112, 112);
+    margin-top: 9px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+/* ///// */
+
+
+/* ----- */
+.self{
+    background: #01A0E1;
+    width: 275px;
+    font-family: sans-serif;
+    color: #fff;
+    border-radius: 20px 0px 20px 20px;
+    margin-left: 140px;
+    margin-top: 35px;
+    padding: 7px;
+    padding-left: 20px;
+}
+.self p{
+    font-size: 10px;
+    padding-top: 8px;
+}
+.self .chat{
+    font-size: 12px;
+}
+/* ///// */
+
+
+
+/* bottom start */
+.send{
+    margin-top: 40px;
+    /* margin-left: 25px; */
+    display: flex;
+    margin-bottom: 30px;
+    height: 55px;
+    background-color:#E3E3E3;
+   
+}
+.send_icon{
+    display: flex;
+    margin-left: 15px;
+   
+}
+.send_icon img{
+   height: 25px;
+   width: 25px;
+   margin-left: 10px;
+   margin-top: 15px;
+   cursor: pointer;
+}
+.msg{
+    margin-left: 10px;
+}
+.msg input{
+    height: 51px;
+    width: 382px;
+    position: relative;
+    background: #E3E3E3;
+    margin-left: -6px;
+    border: none;
+}
+.text_msg::placeholder{
+    padding-left: 25px;
+}
+.msg img{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    margin-left: -65px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+/* botton end */
+
+
+/* ----------msg start end------ */
